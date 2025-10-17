@@ -31,21 +31,21 @@ const Index = () => {
       rank: '5 дан',
       experience: '20 лет',
       specialization: 'Традиционное айкидо',
-      image: 'https://cdn.poehali.dev/projects/c0ada27e-453c-4fd8-b119-70610a84d4c7/files/594a081c-4309-42e9-9609-ac7e2ef9e489.jpg'
+      image: 'https://cdn.poehali.dev/files/4048e60d-2505-46f1-a4ec-4f9f27a4e013.png'
     },
     {
       name: 'Анна Петрова',
       rank: '4 дан',
       experience: '15 лет',
       specialization: 'Айкидо для женщин',
-      image: 'https://cdn.poehali.dev/projects/c0ada27e-453c-4fd8-b119-70610a84d4c7/files/594a081c-4309-42e9-9609-ac7e2ef9e489.jpg'
+      image: 'https://cdn.poehali.dev/files/336c054b-1e5b-47de-8f1e-0323beeaf895.png'
     },
     {
       name: 'Михаил Смирнов',
       rank: '3 дан',
       experience: '12 лет',
       specialization: 'Детское айкидо',
-      image: 'https://cdn.poehali.dev/projects/c0ada27e-453c-4fd8-b119-70610a84d4c7/files/594a081c-4309-42e9-9609-ac7e2ef9e489.jpg'
+      image: 'https://cdn.poehali.dev/files/26e35b59-0971-47ce-8719-0a3ded62c6b6.png'
     }
   ];
 
@@ -118,7 +118,7 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       <nav className="fixed top-0 w-full bg-primary/95 backdrop-blur-sm z-50 shadow-lg">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-          <h1 className="text-2xl font-heading font-bold text-primary-foreground">АЙКИДО КЛУБ</h1>
+          <h1 className="text-2xl font-heading font-bold text-primary-foreground">НАДО БЫ НАЗВАНИЕ ПРИДУМАТЬ</h1>
           <div className="hidden md:flex gap-6">
             <a href="#schedule" className="text-primary-foreground hover:text-secondary transition-colors">Расписание</a>
             <a href="#trainers" className="text-primary-foreground hover:text-secondary transition-colors">Тренеры</a>
@@ -442,7 +442,7 @@ const Index = () => {
 
       <footer className="bg-primary text-primary-foreground py-8 px-4">
         <div className="container mx-auto text-center">
-          <p className="text-sm">&copy; 2025 Айкидо Клуб. Все права защищены.</p>
+          <p className="text-sm">&copy; 2025 Надо бы название придумать. Все права защищены.</p>
         </div>
       </footer>
 
